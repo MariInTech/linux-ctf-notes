@@ -2,7 +2,7 @@
 
 Completed Challenges:
 
-- Challenge #1 - Hidden File
+Challenge #1 - Hidden File
 
 Skills: 
 - Hidden File Discovery
@@ -18,7 +18,7 @@ Summary:
 - Used cat to display the contents of a hidden file.
 - Learned the difference between viewing files and viewing file contents.
 
-- Challenge #7 - Encoded Secret
+Challenge #7 - Encoded Secret
 
 Skills:
 - Base64 Recognition
@@ -37,7 +37,7 @@ Summary:
 - Performed multiple rounds of decoding.
 - Learned how to pass output between commands using a pipe (|).
 
-- Challenge #15 - Archive Archaeologist
+Challenge #15 - Archive Archaeologist
 
 Skills:
 - Archive inspection
@@ -56,7 +56,7 @@ Summary:
 - Followed a nested archive structure through multiple layers.
 - Learned the difference between listing archive contents and extracting them. 
 
-- Challenge #16 - Symbolic Sleuth
+Challenge #16 - Symbolic Sleuth
 
 Skills:
 - Symbolic links
@@ -74,7 +74,7 @@ Summary:
 - Used readlink to identify where symlinks pointed.
 - Learned the difference between a file and a filesystem reference. 
 
-- Challenge #2 - Secret File
+Challenge #2 - Secret File
 
 Skills:
 - Filesystem searching
