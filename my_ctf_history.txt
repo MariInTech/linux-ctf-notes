@@ -1,0 +1,45 @@
+    1  whoami
+    2  pwd
+    3  sudo apt update && sudo apt install -y open-vm-tools-desktop
+    4  sudo reboot
+    5  pwd
+    6  cd ~
+    7  mkdir linux-ctf-notes
+    8  cd linux-ctf-notes
+    9  git init
+   10  nano challenge-progress.md
+   11  git add . 
+   12  git commit -m "Add Linux CTF progress notes"
+   13  git config --global user.name "MariInTech"
+   14  git config --global user.email "marissamackinfotech@gmail.com"
+   15  git commit -m "Add Linux CTF progress notes"
+   16  git config --global user.name "MariInTech"
+   17  git remote add orgin https://github.com/MariInTech/linux-ctf-notes.git
+   18  git branch -M main
+   19  git push -u origin main
+   20  git remote remove orgin
+   21  git remote add origin https://github.com/MariInTech/linux-ctf-notes.git
+   22  git push -u origin main
+   23  sudo du - ctf_user
+   24  sudo su - ctf_user
+   25  cd ~/linux-ctf-notes
+   26  nano challenge-progress.md
+   27  git add .
+   28  git commit -m "Add challenge summaries for completed CTFs"
+   29  git push
+   30  cd 
+   31  pwd
+   32  cd ~/linux-ctf-notes
+   33  pwd
+   34  nano challenge-progress.md
+   35  git add .
+   36  git commit -m "Update challenge notes"
+   37  git push
+   38  pwd
+   39  ls
+   40  cd ~/linux-ctf-notes
+   41  pwd
+   42  nano challenge-progress.md
+   43  git add .
+   44  git commit -m "update challenge notes"
+   45  git push

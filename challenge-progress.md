@@ -92,3 +92,33 @@ Summary:
 - Encountered Linux permission boundaries while searching directories.
 - Located a target file and displayed its contents.
 
+Challenge #3 - The Largest Log
+
+Skills:
+- Log Analysis
+- File Investigation
+- Binary file inspection
+- Text searching
+
+Commands Used:
+- ls /var/log
+- ls -lh /var/log/large_log_file.log
+- file /var/log/large_log_file.log
+- strings /var/log/large_log_file.log
+- strings /var/log/large_log_file.log | grep "CTF{"
+
+Summary:
+- Learned hot to enumerate files within the Linux log directory.
+- Identified an unusually large log file by clicking file sizes.
+- Used the file command to determine whether a file was text or binary data.
+- Learned that large files should be investigated before opening them directly.
+- Used strings to extract human-readable content from a binary file.
+- Used grep to search extracted text for a specific pattern.
+- Learned how Linux administrators and security analysts safely inspect large files during troubleshooting and investigations.
+
+Key Concepts:
+- ls -lh displays human-readable file sizes.
+- file identifies the type of data stored in a file.
+- Strings extract readable text from binary data.
+- Grep searches text for matching patterns.
+- Combining commands with pipes (|) allows powerful filtering and analysis.
